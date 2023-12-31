@@ -1,0 +1,16 @@
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+h1:hover a, h2:hover a, h3:hover a, h4:hover a, h5:hover a, h6:hover a, p:hover a {
+    font-weight: bold;
+    cursor: pointer;
+}
