@@ -1,16 +1,42 @@
-body {
-    font-family: 'Times New Roman', serif;
-    font-size: 12px;
-    text-align: center;
+body, html {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-a {
-    text-decoration: none; /* Remove underline from links */
+.content-item a {
+    text-decoration: none;
+    color: black;
+    transition: font-weight 0.3s ease;
 }
 
-h1:hover a, h2:hover a, h3:hover a, h4:hover a, h5:hover a, h6:hover a, p:hover a {
+.content-item a:hover {
     font-weight: bold;
-    cursor: pointer;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
 }
