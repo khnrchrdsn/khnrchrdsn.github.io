@@ -26,6 +26,10 @@ body, html {
 #content-section {
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .section-content {
