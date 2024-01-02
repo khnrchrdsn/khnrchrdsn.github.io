@@ -21,13 +21,14 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 20px;
 }
 
 #content-section {
-    max-width: 600px; 
-    padding: 20px; 
-    border: 1px solid #ccc; 
-    background-color:
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .section-content {
